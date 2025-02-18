@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "goit-pyweb-hw-11"
+version = "0.1.0"
+description = ""
+authors = ["Anton Vasyliev <anton12vasyliev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.8"
+alembic = "^1.14.1"
+sqlalchemy = "^2.0.38"
+asyncpg = "^0.30.0"
+uvicorn = "^0.34.0"
+pydantic = {extras = ["email"], version = "^2.10.6"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
